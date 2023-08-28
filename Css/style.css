@@ -1,0 +1,125 @@
+body
+{
+    background-color: #1E202B;
+    position: relative;
+}
+nav
+{
+    background-color: #1E202B;
+}
+.head
+{
+    color: white;
+}
+.head span
+{
+    color: #bfc1c8;;
+    font-size: 12px;
+}
+.collapse .navbar-nav .nav-item a 
+{
+    padding: 5px 25px;
+    border: 2px solid transparent;
+    color: white;
+    border-radius: 40px;
+    transition: all .3s ease;
+}
+.collapse .navbar-nav .nav-item a:hover
+{
+    border: 2px solid #03A0D9;
+}
+.container-fluid i
+{
+    color: #03A0D9;
+} 
+.navbar-nav .nav-link.active
+{
+    padding: 5px 25px;
+    border: 2px solid #03A0D9;
+    color: #03A0D9;
+    border-radius: 40px;
+}
+li
+{
+    margin-left: 4px;
+}
+
+/* end nav */
+
+/* start search */
+
+.information
+{
+    width: 100%;
+    min-height: 350px;
+    background-image:url(../img/banner.png);
+    background-size: cover;
+    position: relative;
+}
+input#search
+{
+    background-color: #1E202B;
+    height: 60px;
+    padding: 15px;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+}
+/* end search */
+
+
+/* start todayData */
+.container
+{
+    top: 260px;
+    left: 110px;
+}
+.item
+{
+    background-color: #3235449d;  
+    border-right: solid 1px #1e202b72;
+}
+.item img
+{
+    width: 21px;
+    height: 21px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+#todayData
+{
+    background-color: #2D303D;
+}
+.nextDay
+{
+    background-color: #2D303D;
+}
+#todayImg
+{
+    margin-right: 20px;
+    width: 90px;
+    height: 90px;
+}
+#todayText
+{
+    color: #03A0D9;
+}
+#todayTemp
+{
+    font-size: 45px;
+}
+.nextText
+{
+    color: #03A0D9;
+}
+img.nextImg
+{
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+}
+.text
+{
+    color: #bfc1c8;
+}
